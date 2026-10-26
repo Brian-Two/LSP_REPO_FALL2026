@@ -1,0 +1,3 @@
+# Library and Book collaboration
+
+Library collaborates with Book because its CRC responsibilities include locating books and coordinating borrowing and returning, which require Book's public operations. Book has no Library collaborator because its responsibilities concern only its own information, availability, and valid state transitions; it can therefore also operate independently. Library owns the three-book borrowing limit because that rule depends on the combined state of its collection, which a single Book does not know. Library checks that collection-wide rule before delegating a state change to Book, while Book rejects invalid borrowing or returning of that individual book.
