@@ -40,4 +40,4 @@ The student's dictated response is saved in [ai_reflection.md](reflection/doc/ai
 
 ## Submission
 
-The student confirmed a deadline of October 26, 2026, at 8:00 p.m. America/New_York and no solution edits afterward. All final files must be pushed before that deadline. A submission email draft is prepared for the student to send to the instructor; no email has been sent by the assistant. Compiled classes and IDE project files are excluded from the midterm submission.
+The student confirmed a deadline of October 26, 2026, at 8:00 p.m. America/New_York and no solution edits afterward. All final files must be pushed before that deadline. Compiled classes and IDE project files are excluded from the midterm submission.
