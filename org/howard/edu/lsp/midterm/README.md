@@ -2,7 +2,7 @@
 
 Brian Too — Fall 2026
 
-Questions 1–3 are implemented and documented in the directories required by the exam. Both instructor-provided drivers are preserved as extracted from the supplied Word document, including their original formatting. Prior coursework remains under the repository's existing `src` directory; this midterm uses the exact root-level `org` structure requested in the exam.
+Questions 1–3 are implemented and documented, and the student-authored Question 4 reflection is included, in the directories required by the exam. Both instructor-provided drivers are preserved as extracted from the supplied Word document, including their original formatting. Prior coursework remains under the repository's existing `src` directory; this midterm uses the exact root-level `org` structure requested in the exam.
 
 ## Compile and run
 
@@ -36,8 +36,8 @@ Verified results on October 26, 2026, using JDK 23.0.1 with Java 17 compatibilit
 
 ## Question 4 status
 
-Pending the student's independently written `reflection/doc/ai_reflection.md`. The exam prohibits AI generation, rewriting, editing, and evaluation of this response, so no response or substitute placeholder has been generated. Questions 1–3 being complete does not mean the entire exam is complete.
+The student's dictated response is saved in [ai_reflection.md](reflection/doc/ai_reflection.md) verbatim. Only file placement and exact-text verification were performed; the response was not rewritten, edited, or evaluated by AI. The earlier development logs record the state at their stated development checkpoint, before the student supplied this response.
 
 ## Submission
 
-The student confirmed a deadline of October 26, 2026, at 8:00 p.m. America/New_York and no solution edits afterward. All final files must be pushed before that deadline. The student will send the instructor the repository link using a prepared email draft after completing Question 4. Compiled classes and IDE project files are excluded from the midterm submission.
+The student confirmed a deadline of October 26, 2026, at 8:00 p.m. America/New_York and no solution edits afterward. All final files must be pushed before that deadline. A submission email draft is prepared for the student to send to the instructor; no email has been sent by the assistant. Compiled classes and IDE project files are excluded from the midterm submission.
