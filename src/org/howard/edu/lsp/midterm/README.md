@@ -2,7 +2,7 @@
 
 Brian Too — Fall 2026
 
-Questions 1–3 are implemented and documented, and the student-authored Question 4 reflection is included, in the directories required by the exam. Both instructor-provided drivers are preserved as extracted from the supplied Word document, including their original formatting. Prior coursework remains under the repository's existing `src` directory; this midterm uses the exact root-level `org` structure requested in the exam.
+Questions 1–3 are implemented and documented, and the student-authored Question 4 reflection is included. Both instructor-provided drivers are preserved as extracted from the supplied Word document, including their original formatting. The midterm is located at `src/org/howard/edu/lsp/midterm`, alongside prior coursework under `src`, as clarified by Professor Woolfolk on October 27, 2026. Java package declarations remain unchanged.
 
 ## Compile and run
 
@@ -11,8 +11,8 @@ From the repository root, with JDK 17 or later:
 ```sh
 mkdir -p out/midterm
 javac --release 17 -Xlint:all -Werror -d out/midterm \
-  org/howard/edu/lsp/midterm/crccards/*.java \
-  org/howard/edu/lsp/midterm/inheritance/*.java
+  src/org/howard/edu/lsp/midterm/crccards/*.java \
+  src/org/howard/edu/lsp/midterm/inheritance/*.java
 java -cp out/midterm org.howard.edu.lsp.midterm.crccards.Driver
 java -cp out/midterm org.howard.edu.lsp.midterm.inheritance.Driver
 ```
@@ -40,4 +40,4 @@ The student's dictated response is saved in [ai_reflection.md](reflection/doc/ai
 
 ## Submission
 
-The student confirmed a deadline of October 26, 2026, at 8:00 p.m. America/New_York and no solution edits afterward. All final files must be pushed before that deadline. Compiled classes and IDE project files are excluded from the midterm submission.
+The student confirmed a deadline of October 26, 2026, at 8:00 p.m. America/New_York and no solution edits afterward. The solutions were pushed before that deadline. On October 27, 2026, Professor Woolfolk requested relocation under `src` so the work could be executed for grading; that correction changes file placement and these run instructions only. Compiled classes and IDE project files are excluded from the midterm submission.

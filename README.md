@@ -33,3 +33,7 @@ java -cp out org.howard.edu.lsp.assignment3.ETLPipeline
 ```
 
 The design comparison and resource disclosure are in `src/org/howard/edu/lsp/assignment3/doc/DESIGN.md`.
+
+## Midterm
+
+The midterm source files and documentation are in [src/org/howard/edu/lsp/midterm](src/org/howard/edu/lsp/midterm/README.md). See that README for compilation and driver commands.
