@@ -37,3 +37,24 @@ The design comparison and resource disclosure are in `src/org/howard/edu/lsp/ass
 ## Midterm
 
 The midterm source files and documentation are in [src/org/howard/edu/lsp/midterm](src/org/howard/edu/lsp/midterm/README.md). See that README for compilation and driver commands.
+
+## Assignment 5: IntegerSet
+
+`IntegerSet` implements a mathematical set of integers, including independent
+union, intersection, difference, complement, and symmetric difference results.
+The instructor's `Driver.java` is included unchanged.
+
+### Compile and run
+
+From the repository root (JDK 17 or newer):
+
+```text
+javac --release 17 -Xlint:all -Werror -d out src/org/howard/edu/lsp/assignment5/*.java
+java -cp out org.howard.edu.lsp.assignment5.Driver
+```
+
+The driver passes **47/47 tests**, earning **92/92 functional points**. Javadocs
+and the AI usage report are separately graded by the instructor.
+
+- [Complete driver output](src/org/howard/edu/lsp/assignment5/doc/Driver_Output.txt)
+- [AI usage report](src/org/howard/edu/lsp/assignment5/doc/AI_Usage_Report.md)
