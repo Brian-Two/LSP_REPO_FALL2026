@@ -58,3 +58,22 @@ and the AI usage report are separately graded by the instructor.
 
 - [Complete driver output](src/org/howard/edu/lsp/assignment5/doc/Driver_Output.txt)
 - [AI usage report](src/org/howard/edu/lsp/assignment5/doc/AI_Usage_Report.md)
+
+## Assignment 6: JUnit 5 Tests
+
+The [assignment6 package](src/org/howard/edu/lsp/assignment6) contains the copied
+`IntegerSet` implementation and all 47 completed tests from the supplied template.
+The implementation differs from Assignment 5 only in its package declaration.
+
+In Eclipse, add the JUnit 5 library to the Java build path, then run
+`IntegerSetTest.java` as a JUnit test. For a command-line run with JDK 17 or newer:
+
+```sh
+mkdir -p out/assignment6
+curl -fL https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-console-standalone/1.11.4/junit-platform-console-standalone-1.11.4.jar -o out/junit-platform-console-standalone-1.11.4.jar
+javac --release 17 -Xlint:all -Werror -cp out/junit-platform-console-standalone-1.11.4.jar -d out/assignment6 src/org/howard/edu/lsp/assignment6/*.java
+java -jar out/junit-platform-console-standalone-1.11.4.jar execute --class-path out/assignment6 --select-class org.howard.edu.lsp.assignment6.IntegerSetTest --fail-if-no-tests
+```
+
+See the [AI usage report](src/org/howard/edu/lsp/assignment6/doc/AI_Usage_Report.md)
+for conversation links, references, and validation details.
