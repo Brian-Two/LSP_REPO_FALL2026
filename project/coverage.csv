@@ -1,0 +1,10 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+JaCoCo Coverage Report,org.howard.edu.lsp.project,UserRole,0,15,0,0,0,3,0,1,0,1
+JaCoCo Coverage Report,org.howard.edu.lsp.project,EventRegistrationException,0,10,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,org.howard.edu.lsp.project,Attendee,0,27,0,0,0,10,0,5,0,5
+JaCoCo Coverage Report,org.howard.edu.lsp.project,RegistrationStatus,0,15,0,0,0,3,0,1,0,1
+JaCoCo Coverage Report,org.howard.edu.lsp.project,Registration,0,33,0,0,0,12,0,6,0,6
+JaCoCo Coverage Report,org.howard.edu.lsp.project,EventStatus,0,21,0,0,0,4,0,1,0,1
+JaCoCo Coverage Report,org.howard.edu.lsp.project,EventRegistrationSystem,0,652,0,64,0,118,0,53,0,21
+JaCoCo Coverage Report,org.howard.edu.lsp.project,EventRegistrationException.Reason,0,57,0,0,0,10,0,1,0,1
+JaCoCo Coverage Report,org.howard.edu.lsp.project,Event,0,45,0,0,0,16,0,8,0,8
