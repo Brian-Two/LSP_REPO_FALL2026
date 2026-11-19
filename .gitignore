@@ -12,3 +12,6 @@ target/
 .project
 .settings/
 .DS_Store
+
+# Capstone authoring and PDF render intermediates
+.capstone-work/

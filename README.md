@@ -77,3 +77,11 @@ java -jar out/junit-platform-console-standalone-1.11.4.jar execute --class-path 
 
 See the [AI usage report](src/org/howard/edu/lsp/assignment6/doc/AI_Usage_Report.md)
 for conversation links, references, and validation details.
+
+## Semester Capstone: Howard University Event Registration System
+
+Option 2 implements the event registration library in `org.howard.edu.lsp.project`, demonstrated through JUnit 5 tests. The AWS architecture PDF, official source-only ZIP, run instructions, and design notes are in [project/README.md](project/README.md).
+
+```sh
+./project/run-tests.sh
+```

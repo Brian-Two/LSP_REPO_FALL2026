@@ -1,0 +1,3 @@
+# Treat capstone deliverables as binary even when PDF streams are ASCII encoded.
+project/*.pdf binary
+project/*.zip binary
